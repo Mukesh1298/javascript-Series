@@ -1,1 +1,10 @@
 console.log("hello");
+let date = new Date(2025,0,23);
+// console.log(date.toString());
+// console.log(date.toDateString());
+// console.log(date.toISOString());
+// console.log(date.toLocaleDateString());
+console.log(date.toDateString());
+let stampdate = Date.now();
+console.log(stampdate.toLocaleString());
+console.log(type(Date));
